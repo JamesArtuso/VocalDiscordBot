@@ -42,6 +42,7 @@ pip install -r requirements.txt
 
 3. Download required models:
 - Download XTTS-v2 model and place in `XTTS-v2/` directory
+- https://huggingface.co/coqui/XTTS-v2/tree/main : These files should be in a folder titled 'XTTS-v2'
 
 ### Node.js Setup
 1. Install Node.js dependencies:
