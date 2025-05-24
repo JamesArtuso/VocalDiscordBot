@@ -70,3 +70,4 @@ Idk what to put here. This is just a personal project. Go check out Whisper, Lla
 ## TO-DO
 There is a lot still left to do. Specific todos are put in their respective files. However, the base program works.
 The biggest project-wide to-do is to make it work with multiple speakers. It is only able to listen to one speaker at a time, and I have not been able to test it with multiple speakers. 
+Let me know if any dependencies are missing from the requirements.txt so I can add them.
