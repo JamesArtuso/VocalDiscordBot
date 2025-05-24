@@ -2,14 +2,25 @@
 A Discord bot that can engage in voice conversations using AI. The bot uses:
 - Whisper for speech-to-text
   - https://github.com/openai/whisper 
-- Llama for response generation
+- Llama-3.2-1B-Instruct for response generation
   - https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
-- XTTS for text-to-speech
+- XTTS-v2 for text-to-speech
   - https://huggingface.co/coqui/XTTS-v2
+
+This bot runs entirely locally. It can easily be modified to use other models or services. Bot voice can easily be selected through the use of short samples. See XTTS link for more information.
 
 Currently, this only works on Windows. This is due to the communication between Python and JavaScript. This should be easily replaceable as it is just transferring packets.
 
 ## Setup
+
+### Hardware
+Requirement: CUDA-capable GPU
+
+Here are the specs I used:
+- GPU: RTX 2060 Max-Q
+  - 6 GB dedicated GPU memory
+  - ~5 sec response time on processing 
+- RAM: 16 GB
 
 ### Prerequisites
 - Python 3.8+
