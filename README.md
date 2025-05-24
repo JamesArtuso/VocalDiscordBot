@@ -7,8 +7,7 @@ A Discord bot that can engage in voice conversations using AI. The bot uses:
 - XTTS for text-to-speech
   - https://huggingface.co/coqui/XTTS-v2
 
-Currently, this only works on windows. This is due to the communication between python and javascript. This should be easily replaceable as
-it is just transfering packets.
+Currently, this only works on Windows. This is due to the communication between Python and JavaScript. This should be easily replaceable as it is just transferring packets.
 
 ## Setup
 
@@ -44,7 +43,7 @@ npm install
 python start.py
 ```
 
-3. Start the bot in a seperate window:
+3. Start the bot in a separate window:
 ```bash
 node bot.js
 ```
@@ -56,3 +55,7 @@ node bot.js
 
 ## License
 Idk what to put here. This is just a personal project. Go check out Whisper, Llama3, and XTTS. They are pretty cool libraries and this would be a much harder project without them.
+
+## TODO
+There is a lot still left to do. Specific todos are put in their respective files. However, the base program works.
+The biggest project-wide to-do is to make it work with multiple speakers. Currently, it is only with one speaker, and I have not been able to test it with multiple speakers. 
