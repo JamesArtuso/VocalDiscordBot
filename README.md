@@ -2,7 +2,7 @@
 A Discord bot that can engage in voice conversations using AI. The bot uses:
 - Whisper for speech-to-text
   - https://github.com/openai/whisper 
-- Llama for text generation
+- Llama for response generation
   - https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct
 - XTTS for text-to-speech
   - https://huggingface.co/coqui/XTTS-v2
