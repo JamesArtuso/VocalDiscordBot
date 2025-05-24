@@ -19,7 +19,7 @@ Requirement: CUDA-capable GPU
 Here are the specs I used:
 - GPU: RTX 2060 Max-Q
   - 6 GB dedicated GPU memory
-  - ~5 sec response time on processing 
+  - expect ~5 sec response time
 - RAM: 16 GB
 
 ### Prerequisites
