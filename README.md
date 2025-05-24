@@ -40,11 +40,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+3. Download required models:
+- Download XTTS-v2 model and place in `XTTS-v2/` directory
+
 ### Node.js Setup
 1. Install Node.js dependencies:
 ```bash
 npm install
 ```
+### Node.js Setup
+1. Install Node.js dependencies:
+```bash
+npm install
+```
+
 ### Running the Bot
 1. Add your voice samples to the `voices/` directory
 
