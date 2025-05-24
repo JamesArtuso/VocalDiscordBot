@@ -54,8 +54,8 @@ node bot.js
 - `!volume <0-2>` - Adjust bot's volume (e.g., 0.5 for 50%, 1 for 100%, 2 for 200%)
 
 ## License
-Idk what to put here. This is just a personal project. Go check out Whisper, Llama3, and XTTS. They are pretty cool libraries and this would be a much harder project without them.
+Idk what to put here. This is just a personal project. Go check out Whisper, Llama3, and XTTS. They are pretty cool libraries, and this would be a much harder project without them.
 
-## TODO
+## TO-DO
 There is a lot still left to do. Specific todos are put in their respective files. However, the base program works.
-The biggest project-wide to-do is to make it work with multiple speakers. Currently, it is only with one speaker, and I have not been able to test it with multiple speakers. 
+The biggest project-wide to-do is to make it work with multiple speakers. It is only able to listen to one speaker at a time, and I have not been able to test it with multiple speakers. 
