@@ -7,7 +7,7 @@ if __name__ == "__main__":
     # HuggingFace arguments
     parser.add_argument('--hf_token', help='Huggingface token. Leave empty if you are already logged in.',default=None)
     parser.add_argument('--LLM_model_id', help='Language model from Huggingface', default="meta-llama/Llama-3.2-1B-Instruct")
-    parser.add_argument('--system_message', help='Initial system prompt for the LLM.', default = 'You are a helpful chatbot. You have been given a voice and are talking in Discord.')
+    parser.add_argument('--system_message', help='Initial system prompt for the LLM.', default = 'You are a helpful chatbot. You have been given a voice and are talking in Discord. You should respond as if you are in a conversation. Keep responses short.')
     parser.add_argument('--max_generation_tokens', help = 'Max number of tokens the LLM can generate.', default = 256)
     parser.add_argument('--max_context_window', help = 'Number of previous messages to remember. Includes initial context, user input, and bot responses. This is NOT the number of tokens.', default = 20)
     
