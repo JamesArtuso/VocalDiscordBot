@@ -15,7 +15,7 @@ if __name__ == "__main__":
     parser.add_argument('--whisper_model', help = 'Which OpenAI Whisper model to use. https://github.com/openai/whisper', default = 'base.en')
     
     # TTS arguments
-    parser.add_argument('--speaker_path', help='TTS speaker sample. Put all .wav files in folder and pass path to folder. ie "voices\person1"', default = r'voices\vader')
+    parser.add_argument('--speaker_path', help='TTS speaker sample. Put all .wav files in folder and pass path to folder. ie "voices\person1\sample1.wav" would pass as "voices\person1', default = r'voices\vader')
     args = parser.parse_args()
     
     # Organize kwargs by module
